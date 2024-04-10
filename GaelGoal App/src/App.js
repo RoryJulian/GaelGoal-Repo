@@ -20,7 +20,24 @@ function App() {
 }
 
 function NewPostForm() {
-  return <form>Post Form</form>;
+  return (
+    <form className="fact-form">
+      <input type="text" placeholder="What is your update?" />
+      <span>200</span>
+      <input type="text" placeholder="Fact source URL?" />
+      <select>
+        <option value="">Choose club team:</option>
+        <option value="Arsenal">Arsenal</option>
+        <option value="Shelbourne">Shelbourne</option>
+        <option value="Leeds">Leeds</option>
+        <option value="Manchester United">Manchester United</option>
+        <option value="Celtic">Celtic</option>
+        <option value="Liverpool">Liverpool</option>
+        <option value="Bohemians">Bohemians</option>
+      </select>
+      <button className="post">Post</button>
+    </form>
+  );
 }
 
 function TeamFilter() {
