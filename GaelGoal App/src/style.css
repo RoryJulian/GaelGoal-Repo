@@ -61,7 +61,7 @@ h1 {
 }
 
 .team {
-  margin-bottom: 16px;
+  margin-bottom: 25px;
 }
 
 .update {
@@ -151,12 +151,12 @@ ul {
   color: inherit;
   border-radius: 200px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 1s;
   width: 100%;
 }
 
 .btn:hover {
-  transform: scale(110%) rotate(-2deg);
+  transform: scale(120%);
 }
 
 .btn-large {
