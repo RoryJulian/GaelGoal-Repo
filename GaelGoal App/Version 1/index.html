@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+    <title>GaelGoal</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="logo.png" height="90" width="180" alt="GaelGoal Logo" />
+        </div>
+      </header>
+
+      <form class="fact-form">
+        <input type="text" placeholder="What is your update?" />
+        <span>200</span>
+        <input type="text" placeholder="Fact source URL?" />
+        <select>
+          <option value="">Choose relevant club team:</option>
+          <option value="Arsenal">Arsenal</option>
+          <option value="Chelsea">Chelsea</option>
+          <option value="Shelbourne">Shelbourne</option>
+        </select>
+        <button class="btn btn-large">Post</button>
+      </form>
+
+      <main class="main">
+        <aside>
+          <ul>
+            <li class="team">
+              <button class="btn btn-all-categories">All</button>
+            </li>
+            <li class="team">
+              <button class="btn btn-team" style="background-color: #f63b3b">
+                Arsenal
+              </button>
+            </li>
+            <li class="team">
+              <button class="btn btn-team" style="background-color: #4745e0">
+                Chelsea
+              </button>
+            </li>
+          </ul>
+        </aside>
+
+        <section>
+          <ul>
+            <li class="update">
+              <p>
+                Liam Brady started his first game for the gunners
+                <a
+                  class="source"
+                  href="https://www.arsenal.com/historic/players/liam-brady"
+                  target="_blank"
+                  >(Source)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #f63b3b">Arsenal</span>
+              <div class="vote-buttons">
+                <button>👍 24</button>
+              </div>
+            </li>
+
+            <li class="update">
+              <p>
+                Damien Duff scored again for Chelsea scored again for Chelsea.
+
+                <a
+                  class="source"
+                  href="https://www.premierleague.com/players/1004/Damien-Duff/overview"
+                  target="_blank"
+                  >(Source)</a
+                >
+              </p>
+              <span class="tag" style="background-color: #3b82f6">Chelsea</span>
+              <div class="vote-buttons">
+                <button>👍 11</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
