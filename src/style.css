@@ -14,7 +14,6 @@ body {
   padding: 15px 64px;
 }
 
-/* MAIN LAYOUT */
 .container {
   max-width: 1500px;
   margin: 0 auto;
@@ -167,22 +166,6 @@ ul {
   transform: scale(120%);
 }
 
-.btn-large {
-  font-size: 20px;
-  padding: 20px 32px 17px;
-}
-
-.btn-all-categories {
-  margin-bottom: 16px;
-  width: 100%;
-}
-
-.btn-category {
-  width: 100%;
-  background-image: none;
-}
-
-/* FORM */
 .fact-form {
   background-color: #649263;
   margin-bottom: 40px;
