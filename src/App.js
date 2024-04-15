@@ -143,6 +143,8 @@ function NewPostForm({
         // We are setting the value of the post team to the latest value from the onChange event 
         onChange={(e) => setNewPost({ ...post, team: e.target.value })}
       >
+        <option value={""}>Please select a team:</option>
+
         {/* For each team in the list passed to this component we create a option in the dropdown list for the user to select */}
         {teams.map((team) => (
           <option value={team}>{team}</option>
